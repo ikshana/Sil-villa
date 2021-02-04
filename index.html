@@ -1,0 +1,51 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
+          integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+    <link href="style.css" rel="stylesheet" type="text/css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css"
+          integrity="sha512-HK5fgLBL+xu6dm/Ii3z4xhlSUyZgTT9tuc/hSrtw6uzJOvgRr2a9jyxxT1ely+B+xFAmJKVSTbpM/CuL7qxO8w=="
+          crossorigin="anonymous"/>
+    <title></title>
+</head>
+<body>
+<script src="script.js"></script>
+<!-- Navigation -->
+<div id="content">
+    <span class="slide border rounded border-dark py-0.5 px-4 d-inline-block" style="background: rgba(0,0,0,0.6);">
+      <a href="#" onclick="openSlideMenu()" style="color: white">
+        <i class="fas fa-bars "></i>
+      </a>
+    </span>
+    <div id="menu" class="nav">
+        <a href="#" class="close" onclick="closeSlideMenu()">
+            <i class="fas fa-times"></i>
+        </a>
+        <a href="#" onclick='loadVideo("https://www.theasys.io/viewer/nFWZXHNAYu9NLdcGg8ucRXWtDNFbea")'>overview</a>
+        <a href="#" onclick='loadVideo("https://www.theasys.io/viewer/VymMMnA0b1AVFqTCaGu6Fh9DQYswmy")'>bungalow</a>
+        <a href="#" onclick='loadVideo("https://www.theasys.io/viewer/cJI0z9tGWfpjfyMJY4puSUqL2WxiZ0")'>living room</a>
+        <a href="#" onclick='loadVideo("https://www.theasys.io/viewer/EQjkV7sptA1tzqDWPZQVXEclHUoKSQ")'>bedroom</a>
+        <a href="#" onclick='loadVideo("https://www.theasys.io/viewer/4dkDRBYBm2hSJ88oq68XtSKVwq77sG")'>balcony</a>
+        
+
+       
+        
+        
+    </div>
+</div>
+
+<!-- Video Background -->
+<div class="videoWrapper" style="--aspect-ratio: 3 / 4;">
+    
+    <iframe id="videoChange" src="https://www.theasys.io/viewer/nFWZXHNAYu9NLdcGg8ucRXWtDNFbea" allowfullscreen="true" frameborder="0" scrolling="no" allow="vr;gyroscope;accelerometer" height="450" style="width:100%;border:none;"></iframe>
+</div>
+
+
+</body>
+</html>
